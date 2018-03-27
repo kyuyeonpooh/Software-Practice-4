@@ -1,0 +1,63 @@
+@font-face { 
+   font-family: 'NanumGothic'; 
+   src: url(font/MaplestoryLight.ttf) format('truetype'); 
+}
+
+#chooseseat{
+  font-family : 'JUA';
+  font-size : 40px;
+  color : white;
+}
+
+#screen{
+   width : 569px;
+   margin-top: 30px;
+   background-color: #256f82;
+   height: 40px;
+   color: white;
+   font-family: "NanumGothic";
+   text-align: center;
+   font-size: 35px;
+   padding: 5px;
+}
+
+table{
+   width: 579px;
+   margin-right: 0px;
+   margin-top: 5px;
+   border-collapse: collapse;
+   border: 3px solid black;
+   float : left;   
+}
+
+th{
+   border: 1px dotted black;
+   padding: 10px;
+   font-size: 20px;
+   width: 20px;
+   font-family: 'NanumGothic';
+
+   background-color:#256f82;
+   color: white;
+}
+
+tr.even-row td{
+   background-color:#99d9ea;
+}
+
+tr.odd-row td{
+   background-color:#d3eff2;
+}
+
+td{
+   text-align: center;
+   font-size: 16px;
+   padding: 10px;
+   width: 20px;
+   border: 1px dotted black;
+   font-family: 'NanumGothic';
+}
+
+#end{
+	margin-left: 0px;
+}

@@ -1,0 +1,193 @@
+@font-face { 
+  font-family: 'JUA'; 
+  src: url(font/BMJUA_ttf.ttf) format('truetype'); 
+}
+
+@font-face { 
+  font-family: 'NanumGothic'; 
+  src: url(font/MaplestoryLight.ttf) format('truetype'); 
+}
+
+@font-face { 
+  font-family: 'MaplestoryBold'; 
+  src: url(font/MaplestoryBold.ttf) format('truetype'); 
+}
+
+body{
+  background-color: #0da6b5b5;
+  margin: 0px;
+}
+
+#title-section{
+  background-color: #255865;
+  height : 220px;
+  width: 1900px;
+  display : inline-block;
+}
+
+#title-section{
+  background-color: #255865;
+  height : 220px;
+  width: 1900px;
+  display : inline-block;
+}
+
+#title-section2{
+  background-color: #255865;
+  height : 220px;
+  width: 1920px;
+  display : inline-block;
+}
+
+#reserve-title{
+ margin: 50px;
+ margin-bottom : 20px;
+ margin-right : 0px;
+ padding : 10px;
+ float : left;
+ width: 400px;
+ font-family: 'NanumGothic';
+ font-size : 105px;
+ color : white;
+}
+
+#reserve-title2{
+ margin: 50px;
+ margin-bottom : 20px;
+ margin-right : 0px;
+ padding : 10px;
+ float : left;
+ width: 500px;
+ font-family: 'NanumGothic';
+ font-size : 105px;
+ color : white;
+}
+
+#reserve-title3{
+ margin: 50px;
+ margin-bottom : 20px;
+ margin-right : 0px;
+ padding : 10px;
+ float : left;
+ width: 650px;
+ font-family: 'NanumGothic';
+ font-size : 105px;
+ color : white;
+}
+
+#info{
+    margin: 20px;
+    width : 300px;
+    height : 168px;
+    float : right;
+    right : 10px;
+    top : 0px;
+    border : solid 0px white;
+    font-family : 'NanumGothic';
+    font-size : 50px;
+    color : white;
+}
+
+#Nim{
+  margin : 7px;
+}
+
+Button{
+  width : 129px;
+  height : 90px;
+  cursor : pointer;
+  border : solid 5px #003e58;
+  background-color : #007998;
+  margin-top: 5px;
+  margin-left : 10px;
+  margin-bottom : 10px;
+  font-family : 'NanumGothic';
+  font-size : 25px;
+  color :  white;
+}
+
+#line{
+   border: solid 2px white; 
+   height : 2px; 
+   background-color:white; 
+   margin-top : 5px;
+   margin-bottom : 5px;
+}
+
+#showmovieinfo{
+  margin : 50px;
+  margin-right: 0px;
+  float : left;
+
+}
+
+#timetable{
+  font-family : 'JUA';
+  font-size : 60px;
+  color : white;
+}
+
+#wrapper{
+  width : 1800px;
+  height: 700px;
+}
+
+.timecheck-box{
+  width : 40px;
+  height : 40px;
+  background-color : white;
+}
+
+#next{
+  margin-top: 175px;
+  margin-left : 30px;
+  width : 100px;
+  height : 350px;
+  opacity: 0.5;
+  font-family : 'NanumGothic';
+  font-size : 40px;
+  line-height : 80px;
+  border: 5px solid #003e58;
+  background-color: #256f82;
+  color : white;
+}
+
+
+#cancel{
+  margin-top: 40px;
+  margin-left : 800px;
+  width : 80px;
+  height : 250px;
+  opacity: 0.5;
+  font-family : 'NanumGothic';
+  font-size : 40px;
+  line-height : 80px;
+
+  border: 3px solid #003e58;
+  background-color: #178cba;
+  color : white;
+
+}
+
+#wrap{
+  width : 700px;
+  float : left;
+}
+
+#num_box{
+  text-align: right;
+  border: 3px solid black;
+  border-top: 0px;
+  padding: 20px;
+  background-color:#256f82;
+  font-family: "MaplestoryBold";
+  font-size: 30px;
+  color: white;
+}
+
+select{
+  float: right;
+  width: 100px;
+  font-family: "NanumGothic";
+  font-size: 30px;
+}

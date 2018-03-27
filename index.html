@@ -1,0 +1,48 @@
+<meta charset="utf-8">
+
+<html>
+
+    <head>
+        <title>영화 예매 사이트 - 로그인</title>
+        <link rel="stylesheet" type="text/css" href=" style/background.css">
+        <link rel="stylesheet" type="text/css" href="style/login.css">
+    </head>
+
+    <body>
+        <!-- login section : 로그인 타이틀과 ID/Password input, button 포함 -->
+        <div id = "login-section">
+
+            <div id = "login-title">
+            LOGIN
+            </div>
+
+            <!-- input section -->
+            <div id = "login-input">
+                   <form method="post" action="login/loginproc.jsp">
+                    
+                    <div id = "id-and-pwd">
+                        <div class = "input-box">
+                            <input type="text" name="id" placeholder="  아이디를 입력하세요" style="ime-mode:disabled;">
+                        </div>
+    
+                        <div class = "input-box">
+                            <input type="password" placeholder="  비밀번호를 입력하세요" name="password">                    
+                        </div>
+                    </div>
+
+                    <div id = "submit">
+                        <input type="submit" value="로그인">
+                    </div>
+                </form>     
+        
+            </div>
+
+            <div id = "register">
+                <a href="register/register.html">아이디가 없으신가요?</a>
+            </div>
+
+        </div>
+    </body>
+    
+</html>
+

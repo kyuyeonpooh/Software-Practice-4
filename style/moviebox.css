@@ -1,0 +1,64 @@
+@font-face { 
+  font-family: 'NanumGothicExtra'; 
+  src: url(font/BMJUA_ttf.ttf) format('truetype'); 
+}
+
+.moviebox{
+    margin-top : 50px;
+    margin-left : 45px;
+    margin-bottom: 90px;
+    padding : 30px;
+    width : 350px;
+    height : 600px;
+    float : left;
+
+    background-color: #256f82;
+    border : 5px solid #003e58;
+}
+
+.poster{
+    width : 340px;
+    hieght : 400px;
+}
+
+.movie-title{
+    margin : 20px auto;
+    font-family : 'NanumGothicExtra';
+    font-size : 50px;
+    color : white;
+}
+
+.reserve-button{
+    
+    margin: 0px auto;
+
+    cursor : pointer;
+    width : 200px;
+    height : 80px;
+    background-color: #178cba;
+    border: 5px solid #003e58;
+}
+
+.reserve-button:hover{
+    margin: 0px auto;
+    width : 250px;
+    height : 85px;
+    font-size : 35px;
+}
+
+.reserve-disable-button{
+    margin: 0px auto;
+    width : 250px;
+    height : 80px;
+    cursor : default;
+    background-color : #FF9082;
+}
+
+.reserve-disable-button2{
+    margin: 0px auto;
+    width : 250px;
+    height : 80px;
+    cursor : default;
+    background-color : #0B8F6C;
+    border : 5px solid #013f59;
+}

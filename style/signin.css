@@ -1,0 +1,145 @@
+@font-face { 
+font-family: 'NanumGothic'; 
+src: url(font/MaplestoryLight.ttf) format('truetype'); 
+}
+
+#register-title{
+ margin: 50px;
+ margin-bottom : 20px;
+ padding : 10px;
+ font-family : 'NanumGothic';
+ font-size : 105px;
+ color : white;
+}
+
+.input-box, .input-box2{
+    margin : 0px;
+    margin-bottom : 50px;
+    padding : 10px;
+    width : 750px;
+    height : 100px;
+
+    font-size : 50px;
+    font-weight : bold;
+    font-family : 'NanumGothic';
+    color : white;
+}
+
+.input-box input[type="text"], .input-box input[type="password"] { 
+    margin : 10px;
+    padding : 10px;
+    width : 600px;
+    height: 65px; /* 높이값 초기화 */ 
+    line-height : normal; /* line-height 초기화 */ 
+    border: 0px solid #999; 
+    border-radius: 0; /* iSO 둥근모서리 제거 */ 
+    outline-style: none; /* 포커스시 발생하는 효과 제거를 원한다면 */ 
+    -webkit-appearance: none; /* 브라우저별 기본 스타일링 제거 */ 
+
+    font-size : 30px;
+    font-family : 'NanumGothic';
+}
+
+.input-box input[type="checkbox"]{
+    margin-top : 7px;
+    float : right;
+    width : 50px;
+    height : 50px;
+
+    background-color : white;
+}
+
+.input-box2 input[type="checkbox"]{
+    margin-top : 7px;
+    width : 50px;
+    height : 50px;
+
+    background-color : white;
+}
+
+::placeholder { /* Most modern browsers support this now. */
+   color:    #d3d3d3;
+}
+
+button{
+    cursor : pointer;
+    width : 50px;
+    height : 50px;
+}
+
+#check{
+    padding : 5px;
+    width : 610px;
+    height : 100px;
+}
+
+#agreeinfo{
+    float : right;
+    margin-top : 0px;
+    margin-bottom : 0px;
+}
+
+
+#register-section{
+    width : 800px;
+    margin-top : 20px;
+    margin-left : 120px;
+    margin-right : 0px;
+    float : left;
+}
+
+#register-section1{
+    width : 800px;
+    margin-top : 20px;
+    margin-left : 100px;
+    maragin-right : 0px;
+    float : left;
+}
+
+#register-section2{
+    width : 800px;
+    margin-top : 20px;
+    margin-left : 0px;
+    maragin-right : 0px;
+    float : left;
+}
+
+#wrapper{
+   width : 2000px; 
+}
+
+#agree{
+    height : 240px;
+}
+
+#same{
+    width: 80px;
+    height : 70px;
+    font-family : 'NanumGothic';
+    font-size: 30px;
+    color: white;
+    background-color : #52c0dc;
+    border : solid 3px #256f82;
+}
+
+button{
+    margin-top:7px;
+    margin-left:5px;
+    float : left;
+    cursor : pointer;
+}
+
+#id-set{
+    padding : 5px;
+}
+
+#submit2 input[type="button"]{
+    margin-top : 30px;
+    background-color : #178cba;
+    border : solid 5px #003e58;
+    width : 650px;
+    height : 100px;
+    font-size : 50px;
+    font-family : 'NanumGothic';
+    color : white;
+}

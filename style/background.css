@@ -1,0 +1,15 @@
+body{
+    background-color: #92d5e8;
+}
+
+#submit input[type="submit"]{
+    background-color : #52c0dc;
+    border : solid 5px #256f82;
+    width : 180px;
+    height : 180px;
+    cursor : pointer;
+
+    font-size : 50px;
+    font-family : 'NanumGothic';
+    color : white;
+}

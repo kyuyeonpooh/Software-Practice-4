@@ -1,0 +1,20 @@
+#wrap_tabble_and_button{
+
+}
+
+#next_step{
+  margin-top: 0px;
+  margin-left : 20px;
+  width : 100px;
+  height : 450px;
+  opacity: 0.5;
+  font-family : 'NanumGothic';
+  font-size : 40px;
+  line-height : 80px;
+
+  border: solid 5px #003e58;
+  background-color: #256f82;
+  color : white;
+
+  float : left;
+}
